@@ -5,8 +5,8 @@ your own account, with guardrails that keep secrets out of transcripts and logs.
 
 - **Reads** via [rbw](https://github.com/doy/rbw): search, read one exact entry, TOTP, add, generate.
 - **Attachments** via the official `bw` CLI.
-- **Org admin** (optional): invite, change access and remove members with the bundled
-  `vw-members.sh` (the part `bw` cannot do), plus `bw confirm`.
+- **Org admin** (optional, Vaultwarden / self-hosted only): invite, change access and remove
+  members with the bundled `vw-members.sh` (the part `bw` cannot do), plus `bw confirm`.
 
 Guardrails: never dump the vault, resolve the exact entry before reading it, show passwords
 only when asked, keep secrets off argv, never handle the master password, one attempt per

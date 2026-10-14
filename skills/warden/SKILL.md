@@ -105,7 +105,8 @@ Downloaded files are plaintext on disk: delete (`shred -u`) when done.
 
 ## Organization admin (optional)
 
-Needs an org owner/admin account and `bw`:
+Needs an org owner/admin account and `bw`. `vw-members.sh` is **Vaultwarden / self-hosted
+only**: the Bitwarden cloud splits identity and API onto separate hosts (use its Public API).
 
 ```bash
 bw config server https://<your-vault-server>
