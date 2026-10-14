@@ -1,0 +1,7 @@
+{
+  "name": "warden-plugin",
+  "owner": { "name": "Rodrigo Gonçalves" },
+  "plugins": [
+    { "name": "warden", "source": "./", "description": "Vaultwarden/Bitwarden credential access via rbw + org member admin via bw" }
+  ]
+}
